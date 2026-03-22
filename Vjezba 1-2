@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Student>
+    <Ime>Patrik</Ime>
+    <Prezime>Balija</Prezime>
+    <JMBAG>0246128033</JMBAG>
+    <DatRod>2002-09-24</DatRod>
+    <GodStd>2</GodStd>
+    <Kontakt>
+        <email>pbalija@tvz.hr</email>
+        <telefon>0912007086</telefon>
+    </Kontakt>
+    <Kolegiji>
+        <DigFoto>
+            <NazKol>Digitalna fotografija</NazKol>
+            <ImeProf>Milan Bajic</ImeProf>
+            <ECTS>4</ECTS>
+        </DigFoto>
+        <DDP>
+            <NazKol>Dizajn digitalnih proizvoda</NazKol>
+            <ImeProf>Vesna Ugljesic</ImeProf>
+            <ECTS>3</ECTS>
+        </DDP>
+        <PDD>
+            <NazKol>Produkcija digitalnih medija</NazKol>
+            <ImeProf>Ivan Rajkovic</ImeProf>
+            <ECTS>4</ECTS>
+        </PDD>
+    </Kolegij>
+</Student>
