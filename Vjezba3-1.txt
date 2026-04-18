@@ -1,0 +1,10 @@
+1. Razdvojio ih bi na broj i datum računa te broj i datum naruđbe
+
+2. <podaci xmlns:nar="http://vj3-1.hr/narudba"
+	   xmlns:rac="http://vj3-1.hr/racun>
+	
+	<nar:broj>N-2026-015</nar:broj>
+	<nar:datum>2026-04-08</nar:broj>
+
+	<rac:broj>N-2026-015</rac:broj>
+	<rac:datum>2026-04-08</rac:broj>
