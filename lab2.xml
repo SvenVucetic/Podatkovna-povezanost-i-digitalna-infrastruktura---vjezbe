@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lab2>
+
+<!--Zad1-->
+
+<!--UTF-8 je standard za kodiranje karaktera koji se koristi u elektroni;koj komunikaciji.
+To je akronim za "Unicode Transformation Format - 8-bit."-->
+
+
+<!--Zad2-->
+
+<img>
+<br>
+<input>
+
+<!--U samozatvarajuće oznake vrijednosti se dodaju u obliku atributa.-->
+<!--npr.-->
+
+<input type="text">
+
+
+<!--Zad3-->
+<banka imeiprezime="SvenVučetić" datum="4/3/2026">
+    <nekretnina id="1">
+        <vrsta>Kuća<vrsta>
+        <adresa>Ilica 1027</adresa>
+        <vrijednost>250,000€</vrijednost>
+        <metraza>234m2</metraza>
+        <brojSoba>5</brojSoba>
+    <nekretnina>
+    <nekretnina id="2">
+        <vrsta>Stan<vrsta>
+        <adresa>Petretićev trg 9</adresa>
+        <vrijednost>86,000€</vrijednost>
+        <metraza>96</metraza>
+        <brojSoba>3</brojSoba>
+    <nekretnina>
+</banka>
+
+
+<!--Zad4-->
+
+<!--table>tr*5>td*2>a-->
+
+<table>
+    <tr>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+    </tr>
+    <tr>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+    </tr>
+    <tr>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+    </tr>
+    <tr>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+    </tr>
+    <tr>
+        <td><a href=""></a></td>
+        <td><a href=""></a></td>
+    </tr>
+</table>
+
+
+<!--Zad5-->
+
+<!--RSS služi za brzo pretraživanje vjesti i novosti. XLM služi
+za strukturiranje podataka dok je RSS dizajniran Dizajnirano za sindikaciju web sadržaja.
+RSS je baziran na XLM-u.-->
+
+
+<!--Zad6-->
+
+<manjeOD> &lt; </manjeOD>
+
+
+<!--Zad7-->
+
+<!--CDATA služi za rađenje komentara ili opisa u kojima se mogu
+koristiti znakovi koje bi XML parser mogao drugačije interpretirati.-->
+
+
+
+</lab2>
