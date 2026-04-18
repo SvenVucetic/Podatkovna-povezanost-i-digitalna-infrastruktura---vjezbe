@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-9"?>
+<lab1>
+<!--Zad1-->
+
+<filmovi imeiprezime="SvenVucetic" datum="2026-27-03">
+    <film>
+        <naziv>Pirates of the Caribbean</naziv>
+        <zanr>fantasy</zanr>
+        <zanr>adventure</zanr>
+        <zanr>comedy</zanr>
+        <godina>2003</godina>
+    </film>
+    <film>
+        <naziv>LOTR: Return of The King</naziv>
+        <zanr>fantasy</zanr>
+        <zanr>adventure</zanr>
+        <godina>2003</godina>
+    </film>
+    <film>
+        <naziv>The Fifth Element</naziv>
+        <zanr>science fiction</zanr>
+        <zanr>space opera</zanr>
+        <godina>1997</godina>
+    </film>
+    <film>
+        <naziv>The Naked GUn: From the Files of Police Squad!</naziv>
+        <zanr>comedy</zanr>
+        <zanr>action</zanr>
+        <godina>1988</godina>
+    </film>
+    <film>
+        <naziv>The Elm-Chanted Forest</naziv>
+        <zanr>fantasy</zanr>
+        <zanr>adventure</zanr>
+        <godina>1986</godina>
+    </film>
+</filmovi>
+
+
+<!--Zad2-->
+
+<!--"Extensible" znači produljiv ili sposoban da bude produžen, što u 
+akronimu XML bi označavalo da programer sam proširuje programski jezik dodavanjem
+vlastitih tag-ova.-->
+<!--HTML služi za prikazivanje podataka na web stranicama dok XML služi za slanje
+i pohranjivanje podataka. Dok HTML ima predodređene tag-ove u XML-u programer sam
+stvara svoje tag-ove.-->
+
+
+<!--Zad3-->
+
+<Pokemons>
+    <pokemon id="0059">
+        <ime>Arcanine</ime>
+        <type>Fire</type>
+        <category>Legendary</category>
+        <height>6'03"</height>
+        <weight>341.7lbs</weight>
+    </pokemon>
+    <pokemon id="0131">
+        <ime>Lapras</ime>
+        <type>Water-Ice</type>
+        <category>Tansport</category>
+        <height>8'02"</height>
+        <weight>485.0lbs</weight>
+    </pokemon>
+    <pokemon id="0133">
+        <ime>Evee</ime>
+        <type>Normal</type>
+        <category>Evolution</category>
+        <height>1'00"</height>
+        <weight>14.3lbs</weight>
+    </pokemon>
+</Pokemons>
+
+
+<!--Zad4-->
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<gradovi>
+    <grad>
+        <ime>Zagreb</ime>
+        <drzava>Hrvatska</drzava>
+    </grad>
+    <grad>
+        <ime>London</ime>
+        <drzava>Engleska</drzava>
+    </grad>
+    <grad>
+        <ime>Pariz</ime>
+        <drzava>Francuska</drzava>
+    </grad>
+</gradovi>
+
+</lab1>
