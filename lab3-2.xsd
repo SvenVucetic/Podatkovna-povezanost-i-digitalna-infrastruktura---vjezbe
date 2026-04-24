@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="Nekretnine">
+<xs:complexType>
+    <xs:sequence>
+        <xs:element name="Nekretnina" maxOccurs="unbounded">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="naslov" type="xs:string"/>
+                <xs:element name="Tip" type="xs:string"/>
+                <xs:element name="Lokacija">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Grad" type="xs:string"/>
+                        <xs:element name="Općina" type="xs:string"/>
+                        <xs:element name="Adresa" type="xs:string"/>
+                   </xs:sequence>
+                </xs:complexType>
+                </xs:element>
+                <xs:element name="Cijena" type="xs:decimal" minOccurs="0"/>
+                <xs:element name="Tip" type="xs:int" minOccurs="0"/>
+            </xs:all>
+        <xs:attribute name="id" type="int" use="required">
+        </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+

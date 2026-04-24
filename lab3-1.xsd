@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="CV">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="Ime" type="xs:string"/>
+            <xs:element name="Prezime" type="xs:string"/>
+            <xs:element name="BrojMobitela" type="xs:string"/>
+            <xs:element name="DatumRodjenja" type="xs:date"/>
+            <xs:element maxOccurs="1" ref="PopisObrazovanja">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element maxOccurs="unbounded" ref="Obrazovanje"/>
+                    <xs:attribute name="razina" type="xs:string"/>
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="Institucija" type="xs:string"/>
+                            <xs:element name="GodinaPocetka" type="xs:int"/>
+                            <xs:element name="GodinaZavrsetka" type="xs:int"/>
+                        </xs:all>
+                    </xs:complexType>
+                    </xs:element>
+                    <xs:element maxOccurs="unbounded" ref="Obrazovanje">
+                    <xs:attribute name="razina" type="xs:string"/>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Institucija" type="xs:string"/>
+                            <xs:element name="GodinaPocetka" type="xs:int"/>
+                            <xs:element name="GodinaZavrsetka" type="xs:int"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+            </xs:element>
+            <xs:element name="RadnaIskustva">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="RadnoIskustvo">
+                    <xs:attribute name="oib" type="xs:string"/>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="DatumPocetka" type="xs:date"/>
+                            <xs:element name="DatumZavrsetka" type="xs:date"/>
+                            <xs:element name="NazivTvrtke" type="xs:string"/>
+                            <xs:element name="VrstaTvrtke" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+            </xs:element>
+        </xs:all>
+    </xs:complexType>
+    </xs:element>
+    
+        
